@@ -1,0 +1,3 @@
+# Project exclude paths
+/factory-method-client/target/
+/factory-method-lib/target/
