@@ -6,9 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="factory-method-client" />
-        <module name="factory-method-lib" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="factory-method-client" target="17" />
+      <module name="factory-method-lib" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>
